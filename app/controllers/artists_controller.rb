@@ -29,7 +29,4 @@ class ArtistsController < ApplicationController
     params.require(:artist).permit(*args)
   end
 
-
-
-
 end
